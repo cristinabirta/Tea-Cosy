@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://127.0.0.1:5500/Codecademy%20/Tea%20Cozy/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Tea Cozy</title>
+        
+        
+    <link rel="stylesheet" href="./Tea Cozy_files/style.css"></head>
+    <body data-new-gr-c-s-check-loaded="14.1114.0" data-gr-ext-installed="">
+
+    <nav>
+        <div class="logo">
+             <img src="./Tea Cozy_files/logo.webp" alt="Tea Cozy">
+        </div>
+        <div class="nav-list">
+            <ul class="list-item">
+              <li><a href="http://127.0.0.1:5500/Codecademy%20/Tea%20Cozy/#">Mission</a></li>
+              <li><a href="http://127.0.0.1:5500/Codecademy%20/Tea%20Cozy/#">Featured Tea</a></li>
+              <li><a href="http://127.0.0.1:5500/Codecademy%20/Tea%20Cozy/#">Locations</a></li>
+            </ul>
+    </div>
+</nav>
+
+<main>
+     <section>
+        <div id="section-1">
+            <img id="banner" src="./Tea Cozy_files/img-mission-background.jpg" alt="background">
+            <div id="mission">
+                <h2>Our Mission</h2>
+                <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+            </div>
+        </div>
+    </section>   
+    <section>
+        <div id="section-2">
+            <h2>Tea of the Month</h2>
+            <h4>What's Steeping at the Tea Cozy?</h4>
+           
+            <div class="container">
+                <img src="./Tea Cozy_files/img-berryblitz.webp" alt="berry-blitz">
+                <h4>Fall Berry Blitz Tea</h4>
+            </div>
+                
+            <div class="container"> 
+                <img src="./Tea Cozy_files/img-spiced-rum.webp" alt="spiced-rum">
+                <h4>Spiced Rum Tea</h4>
+            </div>
+               
+            <div class="container">
+                <img src="./Tea Cozy_files/img-donut.webp" alt="donuts">
+                <h4>Seasonal Donuts</h4>
+            </div>
+                
+            <div class="container">
+                <img src="./Tea Cozy_files/img-myrtle-ave.jpg" alt="myrtle-ave-tea">
+                <h4>Myrtle Ave Tea</h4>
+            </div>
+                
+            <div class="container">
+                <img src="./Tea Cozy_files/img-bedford-bizarre.webp" alt="bedford-bizarre-tea">
+                <h4>Bedford Bizzare</h4>
+            </div> 
+        </div>
+    </section>
+    <section>
+        <div id="section-3">
+            <div class="locations">
+                <img id="location" src="./Tea Cozy_files/img-locations-background.webp" alt="locations">        
+                <h2 id="title3">Locations</h2>
+                <div class="adress">
+                <div id="adress1">
+                    <h3>Downtown</h3>
+                    <h4>384 West 4th St</h4>
+                    <h4>Suite 108</h4>
+                    <h4>Portland, Maine</h4>
+                </div>
+                <div id="adress2">
+                    <h3>East Bayside</h3>
+                    <h4>3433 Phisherman's Avenue</h4>
+                    <h4>(Northwest Corner)</h4>
+                    <h4>Portland, Maine</h4>
+                </div>
+                <div id="adress3">
+                    <h3>Oakdale</h3>
+                    <h4>515 Crescent Avenue</h4>
+                    <h4>Second Floor</h4>
+                    <h4>Portland, Maine</h4>
+                </div>
+            </div>
+            
+        </div>
+    </div></section>
+</main>
+
+<footer>
+    <div id="contact-box">
+        <h2>The Tea Cozy</h2>
+        <h5>contact@theteacozy.com</h5>
+        <h5>917-555-8904</h5>
+    </div>
+    <div id="copyright">
+        <h5>copyright The Tea Cozy 2017</h5>
+    </div>
+</footer>
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+    </body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+  div.grammarly-desktop-integration {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+  }
+
+  div.grammarly-desktop-integration:before {
+    content: attr(data-content);
+  }
+</style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
